@@ -1,0 +1,27 @@
+body{
+	overflow-y: hidden;
+}
+big{
+	display:block;
+	margin-bottom: 12px;
+}
+.image-zoom{
+	display:inline-block;
+}
+table tbody td{
+	font-size: 13px;
+}
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-on, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-label{
+	line-height: 20px;
+}
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-on, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-label{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.block-flat .header{
+	padding:0;
+}
+h3{
+	padding-top:5px;
+	margin: 0 0 1.5rem 0;
+}

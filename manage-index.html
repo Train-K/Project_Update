@@ -5,31 +5,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>优选网站管理系统</title>
 		<link rel="shortcut icon" href="images/icon.ico">
+		<link rel="stylesheet" href="font/font1css.css">
+		<link rel="stylesheet" href="font/font2css.css">
+		<link rel="stylesheet" href="font/font3css.css">
 		<!-- Web font -->
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700,800' type='text/css'>
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:100'  type='text/css'>
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700'  type='text/css'>
-		<!-- Bootstrap core CSS -->
-      	<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
-  		<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
-  		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      	<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	<![endif]-->
-		<link rel="stylesheet" type="text/css" href="js/jquery.gritter/css/jquery.gritter.css" />
-		<link rel="stylesheet" type="text/css" href="js/jquery.nanoscroller/nanoscroller.css" />
-    	<link rel="stylesheet" type="text/css" href="js/jquery.easypiechart/jquery.easy-pie-chart.css" />
-  		<link rel="stylesheet" type="text/css" href="js/bootstrap.switch/bootstrap-switch.css" />
-	  	<link rel="stylesheet" type="text/css" href="js/bootstrap.datetimepicker/css/bootstrap-datetimepicker.min.css" />
-	  	<link rel="stylesheet" type="text/css" href="js/jquery.select2/select2.css" />
-	  	<link rel="stylesheet" type="text/css" href="js/bootstrap.slider/css/slider.css" />
-	  	<link rel="stylesheet" type="text/css" href="js/intro.js/introjs.css" />
-	    <link href="css/style.css" rel="stylesheet" />
-	    <link href="css/admin.css" rel="stylesheet" />
+  		<link rel="stylesheet" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+  		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="js/jquery.gritter/css/jquery.gritter.css">
+		<link rel="stylesheet" href="js/jquery.nanoscroller/nanoscroller.css">
+    	<link rel="stylesheet" href="js/jquery.easypiechart/jquery.easy-pie-chart.css">
+  		<link rel="stylesheet" href="js/bootstrap.switch/bootstrap-switch.css">
+	  	<link rel="stylesheet" href="js/bootstrap.datetimepicker/css/bootstrap-datetimepicker.min.css">
+	  	<link rel="stylesheet" href="js/jquery.select2/select2.css">
+	  	<link rel="stylesheet" href="js/bootstrap.slider/css/slider.css">
+	  	<link rel="stylesheet" href="js/intro.js/introjs.css">
+	    <link rel="stylesheet" href="css/style.css" >
+	    <link rel="stylesheet" href="css/zoom.css">
+	    <link rel="stylesheet" href="css/box_style.css">
+	    <link rel="stylesheet" href="css/jquery.contextMenu.css">
+	    <link rel="stylesheet" href="css/loading.css">
+	    <link rel="stylesheet" href="css/admin.css">
 	</head>
 	<body>
 		<!-- begin head-nav -->
-		<div id="head-nav" class="navbar navbar-default navbar-fixed-top">
+		<div id="head-nav" class="navbar navbar-default navbar-fixed-top" oncontextmenu="return false">
 	      	<div class="container-fluid">
 	        	<div class="navbar-header">
 	          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -102,7 +101,7 @@
 		<!-- end head-nav -->
 		
 		<!-- begin main -->
-		<div id="cl-wrapper" class="fixed-menu">
+		<div id="cl-wrapper" class="fixed-menu" >
 			<!-- begin left nav -->
 			<div class="cl-sidebar" data-position="right">
   				<div class="cl-toggle">
@@ -129,10 +128,10 @@
 	                				</a>
 	                  				<ul class="sub-menu">
 	                    				<li class="active">
-	                    					<a href="index-2.html">数据分析</a>
+	                    					<a href="manage-index.html">数据分析</a>
 	                    				</li>
 	                    				<li>
-	                    					<a href="dashboard2.html">
+	                    					<a href="manage-index2.html">
 	                    						<span class="label label-primary pull-right">New
 	                    						</span> 数据统计
 	                    					</a>
@@ -145,15 +144,15 @@
 			                			<span>用户信息</span>
 		                			</a>
 		                  			<ul class="sub-menu">
-					                    <li><a href="ui-elements.html">用户登录信息</a></li>
-					                    <li><a href="ui-buttons.html">用户访问信息</a></li>
-					                    <li><a href="ui-modals.html"><span class="label label-primary pull-right">New</span> 用户浏览记录</a></li>
-					                    <li><a href="ui-notifications.html"><span class="label label-primary pull-right">New</span> 用户订购记录</a></li>
-					                    <li><a href="ui-icons.html">用户使用记录</a></li>
-					                    <li><a href="ui-grid.html">用户反馈记录</a></li>
-					                    <li><a href="ui-tabs-accordions.html">用户表单记录</a></li>
-					                    <li><a href="ui-nestable-lists.html">用户退出记录</a></li>
-					                    <li><a href="ui-treeview.html">访问出错记录</a></li>
+					                    <li><a href="">用户登录信息</a></li>
+					                    <li><a href="">用户访问信息</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span> 用户浏览记录</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span> 用户订购记录</a></li>
+					                    <li><a href="">用户使用记录</a></li>
+					                    <li><a href="">用户反馈记录</a></li>
+					                    <li><a href="">用户表单记录</a></li>
+					                    <li><a href="">用户退出记录</a></li>
+					                    <li><a href="">访问出错记录</a></li>
 					                </ul>
 	                			</li>
 	                			<li>
@@ -162,13 +161,13 @@
 		                				<span>表单数据</span>
 	                				</a>
 				                  	<ul class="sub-menu">
-					                    <li><a href="form-elements.html">登录表单</a></li>
-					                    <li><a href="form-validation.html">注册表单</a></li>
-					                    <li><a href="form-wizard.html">个人信息表单</a></li>
-					                    <li><a href="form-masks.html">文件上传表单</a></li>
-					                    <li><a href="form-multiselect.html"><span class="label label-primary pull-right">New</span>活动报名表单</a></li>
-					                    <li><a href="form-wysiwyg.html"><span class="label label-primary pull-right">New</span>反馈评价表单</a></li>
-					                    <li><a href="form-upload.html"><span class="label label-primary pull-right">New</span>产品评分表单</a></li>
+					                    <li><a href="">登录表单</a></li>
+					                    <li><a href="">注册表单</a></li>
+					                    <li><a href="">个人信息表单</a></li>
+					                    <li><a href="">文件上传表单</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>活动报名表单</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>反馈评价表单</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>产品评分表单</a></li>
 				                  	</ul>
 	                			</li>
 	                			<li>
@@ -177,8 +176,8 @@
 	                					<span>网页模块</span>
 	                				</a>
 				                  	<ul class="sub-menu">
-					                    <li><a href="tables-general.html">增加模块</a></li>
-					                    <li><a href="tables-datatables.html"><span class="label label-primary pull-right">New</span>修改模块</a></li>
+					                    <li><a href="">增加模块</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>修改模块</a></li>
 				                  	</ul>
 	                			</li>              
 	                			<li>
@@ -187,8 +186,8 @@
 		                				<span>域名状态</span>
 	                				</a>
 				                  	<ul class="sub-menu">
-					                    <li><a href="maps.html">域名信息</a></li>
-					                    <li><a href="vector-maps.html"><span class="label label-primary pull-right">New</span>域名安全性</a></li>
+					                    <li><a href="">域名信息</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>域名安全性</a></li>
 				                  	</ul>
 	                			</li>             
 				                <li>
@@ -197,19 +196,19 @@
 				                		<span>企业邮箱</span>
 				                	</a>
 				                  	<ul class="sub-menu">
-					                    <li><a href="email-inbox.html">收件箱</a></li>
-					                    <li><a href="email-read.html">已发邮件</a></li>
-					                    <li><a href="email-compose.html">云同步更新<span class="label label-primary pull-right">New</span></a></li>
+					                    <li><a href="">收件箱</a></li>
+					                    <li><a href="">已发邮件</a></li>
+					                    <li><a href="">云同步更新<span class="label label-primary pull-right">New</span></a></li>
 				                  	</ul>
 				                </li>
 	                			<li>
-	                				<a href="typography.html">
+	                				<a href="">
 	                					<i class="fa fa-text-height"></i>
 	                					<span>网站信息修改</span>
 	                				</a>
 	                			</li>
 	                			<li>
-	                				<a href="charts.html">
+	                				<a href="">
 	                					<i class="fa fa-bar-chart-o"></i>
 	                					<span>数据结构分析</span>
 	                				</a>
@@ -220,20 +219,18 @@
 		                				<span>网页页面管理</span>
 	                				</a>
 				                  	<ul class="sub-menu">
-					                    <li><a href="pages-blank.html">Blank Page</a></li>
-					                    <li><a href="pages-blank-header.html">Blank Page Header</a></li>
-					                    <li><a href="pages-blank-aside.html">Blank Page Aside</a></li>
-					                    <li><a href="pages-login.html">Login</a></li>
-					                    <li><a href="pages-404.html">404 Page</a></li>
-					                    <li><a href="pages-500.html">500 Page</a></li>
-					                    <li><a href="pages-sign-up.html"><span class="label label-primary pull-right">New</span>Sign Up</a></li>
-					                    <li><a href="pages-forgot-password.html"><span class="label label-primary pull-right">New</span>Forgot Password</a></li>
-					                    <li><a href="pages-profile.html"><span class="label label-primary pull-right">New</span>Profile</a></li>
-					                    <li><a href="pages-search.html"><span class="label label-primary pull-right">New</span>Search</a></li>
-					                    <li><a href="pages-calendar.html"><span class="label label-primary pull-right">New</span>Calendar</a></li>
-					                    <li><a href="pages-code-editor.html"><span class="label label-primary pull-right">New</span>Code Editor</a></li>
-					                    <li><a href="pages-gallery.html">Gallery</a></li>
-					                    <li><a href="pages-timeline.html">Timeline</a></li>
+					                    <li><a href="">空白页面</a></li>
+					                    <li><a href="">登录页面</a></li>
+					                    <li><a href="">404 页面</a></li>
+					                    <li><a href="">500 页面</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>注销页面</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>忘记密码</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>上传文件</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>查询页面</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>日历页面</a></li>
+					                    <li><a href=""><span class="label label-primary pull-right">New</span>编辑页面</a></li>
+					                    <li><a href="">浏览页面</a></li>
+					                    <li><a href="">时间轴页面</a></li>
 				                  	</ul>
 	                			</li>
 	              			</ul>
@@ -252,73 +249,245 @@
 	  		<!-- begin right -->
 	  		<div class="container-fluid" id="pcont">
   		  		<div class="cl-mcont">
-  		  		<!-- begin module -->
+  		  			<!-- begin module -->
   		  			<div class="stats_bar">
 		  				<div class="butpro butstyle">
 		  					<div class="sub"><h2>网站访问量</h2><span id="total_clientes">170</span></div>
-		  					<div class="stat"><span class="spk1"><canvas style="display: inline-block; width: 74px; height: 16px; vertical-align: top;" width="74" height="16"></canvas></span></div>
+		  					<div class="stat">
+		  						<span class="spk1">
+		  							<canvas style="display: inline-block; width: 74px; height: 16px; vertical-align: top;" width="74" height="16"></canvas>
+		  						</span>
+		  					</div>
 		  				</div>
 		  				<div class="butpro butstyle">
-		  					<div class="sub"><h2>流量同比增长</h2><span>951,611</span></div>
+		  					<div class="sub"><h2>流量同比增长</h2><span id="changenum4">951,611</span></div>
 		  					<div class="stat"><span class="up"> 13,5%</span></div>
 		  				</div>
 		  				<div class="butpro butstyle">
-		  					<div class="sub"><h2>网站带宽占用</h2><span>125</span></div>
+		  					<div class="sub"><h2>网站带宽占用</h2><span id="changenum2">125</span></div>
 		  					<div class="stat"><span class="down"> 20,7%</span></div>
 		  				</div>	
 		  				<div class="butpro butstyle">
-		  					<div class="sub"><h2>网站在线用户</h2><span>18</span></div>
+		  					<div class="sub"><h2>网站在线用户</h2><span id="changenum3">182</span></div>
 		  					<div class="stat"><span class="equal"> 0%</span></div>
 		  				</div>	
 		  				<div class="butpro butstyle">
-		  					<div class="sub"><h2>网站连通率</h2><span>82%</span></div>
+		  					<div class="sub"><h2>网站连通率</h2><span id="changenum1">82%</span></div>
 		  					<div class="stat"><span class="spk2"></span></div>
 		  				</div>
 		  				<div class="butpro butstyle">
-		  					<div class="sub"><h2>网站内存下载</h2><span>184</span></div>
+		  					<div class="sub"><h2>网站内存下载</h2><span id="changenum6">184</span></div>
 		  					<div class="stat"><span class="spk3"></span></div>
 		  				</div>
   					</div>
-  		  		<!-- end module -->
+					<!-- end module -->
+					<!-- begin content -->
+	  		  		<div class="row dash-cols">
+	  		  			<!-- begin timeline -->
+	  		  			<div class="col-sm-6 col-md-6">
+				          	<ul class="timeline">
+					            <li>
+					            	<i class="fa fa-comment"></i>
+					           		<span class="date">08/21</span>
+					           		<div class="content">
+						                <p><strong>Tr.Ladas</strong> 用户通过验证后，成功注册成为 <strong>VIP会员</strong>.</p>
+						                <small>1分钟前</small>
+					              	</div>
+					            </li>
+					            <li>
+					            	<i class="fa fa-envelope green"></i>
+					            	<span class="date">08/20</span>
+					            	<div class="content">
+					            		<i class="fa fa-paperclip pull-right"></i>
+					                	<p><strong>Mr.Right</strong> 管理员<br/> 审核验证通过企业邮箱文件</p>
+					                	<a class="image-zoom"><img src="images/gallery/index_1_1.png" class="img-thumbnail"  data-action="zoom" style="height:64px;" /></a>
+					                	<a class="image-zoom" ><img src="images/gallery/index_1_2.png" class="img-thumbnail"  data-action="zoom" style="height:64px;" /></a>
+					              	</div>
+					            </li>
+					            <li>
+					              	<i class="fa fa-file red"></i>
+					              	<span class="date">08/19</span>
+					              	<div class="content">
+					                	<p><strong>Michael</strong> 更新文章</p>
+					                	<a href="" data-modal="#modal" class="modal__trigger">
+						                	<blockquote>
+						                		<big>Facebook引入新的UI设计</big>
+						                		<p>近日，Facebook、Messenger和Instagram等应用对新闻流的设计进行了调整，加入更多线条吸引用户点击和评论。</p>
+						                		<small>腾讯科技讯</small>
+						                	</blockquote>
+				                		</a>
+					              	</div>
+									<!-- Modal -->
+									<div id="modal" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+									  	<div class="modal__dialog">
+									    	<div class="modal__content">
+										      	<h1>Facebook引入新的UI设计</h1>
+										      	<h3>社交网络   腾讯科技</h3>
+										      	<p>近日，Facebook、Messenger和Instagram等应用对新闻流的设计进行了调整，加入更多线条吸引用户点击和评论。</p>
+										      	<p><img src="images/news1.jpg"></p>
+										      	<p>Facebook会周期性的升级自己的设计，为了提升可读性，它们会去掉一些非必要的元素或是UI框架。现在的Facebook应用里，干净的白色区域越来越多，这样的设计是为了降低用户的视觉疲劳，同时新内容弹出时效果也更加生动。</p>
+										      	<p>重新设计的Facebook和Instagram未来几周就将正式登陆各大应用市场。</p>
+										      	<!-- modal close button --> 
+										      	<a href="" class="modal__close demo-close">
+											      	<svg class="" viewBox="0 0 24 24">
+												        <path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/>
+												        <path d="M0 0h24v24h-24z" fill="none"/>
+										      		</svg>
+									      		</a>
+									    	</div>
+									  	</div>
+									</div>
+					            </li>
+					            <li>
+					            	<i class="fa fa-globe purple"></i>
+					            	<span class="date">08/18</span>
+					            	<div class="content">
+					            		<a href="#"><p><strong>[服务器消息] </strong>  服务器已全面升级，帮您拦截潜伏攻击</p></a>
+					            	</div>
+					            </li>
+					        </ul>
+						</div>
+						<!-- end timeline -->
+						<div class="col-sm-6 col-md-6">
+							<!-- begin chat -->
+							<div class="block-flat pie-widget">
+					            <div class="content no-padding">
+									<h4 class="no-margin">页面浏览访问量</h4>
+					             	<div class="row">
+					                	<div class="col-sm-4"><div id="ticket-chart" style="height:160px;"></div></div>
+					                	<div class="col-sm-8">
+					                  		<table class="no-borders no-strip padding-sm">
+					                    		<tbody class="no-border-x no-border-y">
+							                      	<tr>
+								                        <td style="width:15px;"><div class="legend" data-color="#649BF4"></div></td>
+								                        <td>官网主页</td>
+								                        <td class="text-right"><b>一级页面</b></td>
+							                      	</tr>
+							                      	<tr>
+								                        <td><div class="legend" data-color="#19B698"></div></td>
+								                        <td>活动主页</td>
+								                        <td class="text-right"><b>二级页面</b></td>
+							                      	</tr>
+							                      	<tr>
+								                        <td><div class="legend" data-color="#BD3B47"></div></td>
+								                        <td>子域主页</td>
+								                        <td class="text-right"><b>二级页面</b></td>
+							                      	</tr>
+							                      	<tr>
+								                        <td><div class="legend" data-color="#DD4444"></div></td>
+								                        <td>表单分页</td>
+								                        <td class="text-right"><b>二级页面</b></td>
+							                      	</tr>
+							                      	<tr>
+								                        <td><div class="legend" data-color="#FD9C35"></div></td>
+								                        <td>其它页面汇总</td>
+								                        <td class="text-right"><b>二级页面</b></td>
+							                      	</tr>
+					                   		 	</tbody>
+					                  		</table>
+					                	</div>
+					              	</div>
+					              	<div class="row stats">
+					                	<div class="col-sm-6">
+					                		<div class="spk4 pull-right"></div>
+					                		<p>新用户 访问</p>
+					                		<h5 id="changenum7">1246</h5>
+					                	</div>
+					                	<div class="col-sm-6">
+					                		<div class="spk5 pull-right"></div>
+					                		<p>老用户 访问</p>
+					                		<h5 id="changenum8">1032</h5>
+					                	</div>
+					              	</div>
+								</div>
+							</div>
+							<!-- end chat -->
+							<!-- begin service -->
+							<div class="block-flat">
+								<div class="header">							
+									<h3>服务器状态</h3>
+								</div>
+								<div class="content">
+									<table class="no-border">
+										<tbody class="no-border-y">
+											<tr>
+												<td><strong>Cloud Server</strong><br /> 拖动可打开或关闭云服务器</td>
+												<td class="text-right"><input class="switch" checked data-size="small" name="op1" type="checkbox" checked /></td>
+											</tr>
+											
+										</tbody>
+									</table>						
+								</div>
+							</div>
+							<!-- end service -->
+						</div>
+	  		  		</div>
+	  		  		<!-- end content -->
+
+
   		  		</div>
-  		  		
   		  	</div>
 	  		<!-- end right -->
-
 		</div>
 		<!-- end main -->
 
+		<!-- begin loading -->
+		<ul id="spinners">
+			<li class="active" data-id="1">
+				<div id="preloader_1">
+		  			<span></span>
+		  			<span></span>
+		  			<span></span>
+		  			<span></span>
+		  			<span></span>
+		  		</div>
+			</li>
+		</ul>
+		<div class="loading"></div>
+		<!-- end loading -->
 
+		<!-- begin js -->
 		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-      	<script type="text/javascript" src="js/jquery.gritter/js/jquery.gritter.js"></script>
-    	<script type="text/javascript" src="js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
-	  	<script type="text/javascript" src="js/behaviour/general.js"></script>
+		<script src="js/jquery.min.js"></script>
+      	<script src="js/jquery.gritter/js/jquery.gritter.js"></script>
+    	<script src="js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
+	  	<script src="js/behaviour/general.js"></script>
 	    <script src="js/jquery.ui/jquery-ui.js" type="text/javascript"></script>
-	  	<script type="text/javascript" src="js/jquery.sparkline/jquery.sparkline.min.js"></script>
-	  	<script type="text/javascript" src="js/jquery.easypiechart/jquery.easy-pie-chart.js"></script>
-	  	<script type="text/javascript" src="js/jquery.nestable/jquery.nestable.js"></script>
-	  	<script type="text/javascript" src="js/bootstrap.switch/bootstrap-switch.min.js"></script>
-	  	<script type="text/javascript" src="js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-	    <script src="js/jquery.select2/select2.min.js" type="text/javascript"></script>
-	    <script src="js/skycons/skycons.js" type="text/javascript"></script>
-	    <script src="js/bootstrap.slider/js/bootstrap-slider.js" type="text/javascript"></script>
-	    <script src="js/intro.js/intro.js" type="text/javascript"></script>
-	    <!-- Bootstrap core JavaScript
-	      ================================================== -->
-	      <!-- Placed at the end of the document so the pages load faster -->
-	    <script type="text/javascript">
-	        $(document).ready(function(){
-	        	//initialize the javascript
-	        	App.init();
-	        	App.dashBoard();
-	            // introJs().setOption('showBullets', false).start();
-	    });
-	    </script>
+	  	<script src="js/jquery.sparkline/jquery.sparkline.min.js"></script>
+	  	<script src="js/jquery.easypiechart/jquery.easy-pie-chart.js"></script>
+	  	<script src="js/jquery.nestable/jquery.nestable.js"></script>
+	  	<script src="js/bootstrap.switch/bootstrap-switch.min.js"></script>
+	  	<script src="js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	    <script src="js/jquery.select2/select2.min.js"></script>
+	    <script src="js/skycons/skycons.js"></script>
+	    <script src="js/bootstrap.slider/js/bootstrap-slider.js"></script>
+	    <script src="js/intro.js/intro.js"></script>
+
+	    <script src="js/jquery.contextMenu.min.js"></script>
+	    
 	    <script src="js/behaviour/voice-commands.js"></script>
 		<script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
-	  	<script type="text/javascript" src="js/jquery.flot/jquery.flot.js"></script>
-	  	<script type="text/javascript" src="js/jquery.flot/jquery.flot.pie.js"></script>
-	  	<script type="text/javascript" src="js/jquery.flot/jquery.flot.resize.js"></script>
-	  	<script type="text/javascript" src="js/jquery.flot/jquery.flot.labels.js"></script>
+	  	<script src="js/jquery.flot/jquery.flot.js"></script>
+	  	<script src="js/jquery.flot/jquery.flot.pie.js"></script>
+	  	<script src="js/jquery.flot/jquery.flot.resize.js"></script>
+	  	<script src="js/jquery.flot/jquery.flot.labels.js"></script>
+	  	
+		<script src="js/jquery.vectormaps/jquery-jvectormap-1.2.2.min.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-us-merc-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-world-mill-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-fr-merc-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-uk-mill-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-us-il-chicago-mill-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-au-mill-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-in-mill-en.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-map.js"></script>
+	    <script src="js/jquery.vectormaps/maps/jquery-jvectormap-ca-lcc-en.js"></script>
+
+		<script src="js/loading_js.min.js"></script>
+		<script src="js/admin.js"></script>
+	  	<script src="js/changenum.js"></script>
+	  	<script src="js/zoom.min.js"></script>
+	  	<script src="js/box_index.js"></script>
+	  	<!-- end js -->
 	</body>
 </html>

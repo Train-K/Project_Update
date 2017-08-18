@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>优选网站管理系统</title>
+		<link rel="shortcut icon" href="images/icon.ico">
+		<link rel="stylesheet" href="css/Aloading.css">
+		<script src="js/Aloading_prefixfree.min.js"></script>
+	</head>
+	<body>
+		<script src="js/Aloading_index.js"></script>
+  		<div id="loading" style="text-align:center;clear:both"></div>
+  		<script>
+		    function timedMsg(){
+		    	document.body.style.background="#111";
+		    	var oLo =document.getElementsByTagName('canvas')[0];
+		    	var t =setTimeout(function(){
+		      	oLo.style.display="none";
+		      	document.body.style.background=null;
+		      	window.location.href='manage-index.html';
+		    	},2870);
+		    }
+		    timedMsg();
+  		</script>
+	</body>
+</html>
